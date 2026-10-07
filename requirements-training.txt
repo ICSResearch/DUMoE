@@ -1,0 +1,3 @@
+-r requirements.txt
+timm>=1.0.3
+tensorboard>=2.15
