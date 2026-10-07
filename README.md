@@ -52,6 +52,8 @@ reconstructed images and `results.csv` with luminance PSNR/SSIM. Add `--lpips`
 to report LPIPS. Use `--data_dir` for another test directory and `--checkpoint`
 to select a pretrained or trained checkpoint.
 
+Checkpoints can be found at [DUMoE_ICS](https://pan.baidu.com/s/1N4pxR0HwEpfROFDbovm3yg?pwd=edux).
+
 ### Training
 
 ```bash
@@ -86,6 +88,8 @@ Results are saved to `csmri/results/dumoe/{dataset}/{ratio}/`, including
 reconstructed images and `results.csv` with PSNR/SSIM and inference time.
 Use `--checkpoint`, `--data_dir`, or `--mask_path` to override the default inputs.
 The separate brain/radial models are available under `csmri/model/brain_radial/`.
+
+Checkpoints can be found at [DUMoE_CSMRI](https://pan.baidu.com/s/1usQjGZlw1VT_g2U8EZ-ong?pwd=pn9j).
 
 ### Training
 
@@ -133,6 +137,8 @@ python sci/sim/main_test.py --data_root /path/to/SCI --outf results/sci-sim
 The default model is `sci/sim/model/dumoe_sci_sim.pth`. The output directory
 contains `dumoe.mat` with `pred` and `truth` (N x 256 x 256 x 28), and
 `results.csv` with PSNR/SSIM. Use `--pretrained_model_path` to select another model.
+
+Checkpoints can be found at [DUMoE_SCI](https://pan.baidu.com/s/1r2RnedWSZnEbr8AeYuyHQA?pwd=4mhj).
 
 ### Training
 
